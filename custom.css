@@ -1,0 +1,161 @@
+/* FONTS */
+
+/*
+  #436127
+  #C2E6A1
+ */
+
+@font-face {
+  font-family: logoFont;
+  src: url("../fonts/Berlin.oft");
+}
+
+body{
+   background: url("../images/sbpdc.JPG") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding : 100px;
+  color : #FFFFFF;
+}
+
+.col-md-12,
+.col-md-4,
+.col-md-6{
+  border : solid 0px black;
+}
+
+.navbar{
+  background-color : rgba(255,255,255,0.5);
+  border-bottom-upleft-radius: 15px;
+  border-bottom-upright-radius: 15px;
+}
+.navbar-brand{
+  font-family: logoFont;
+  font-size : 24pt;
+}
+
+.card-img-top{
+  height : 275px;
+  width : auto;
+}
+
+.card-text{
+  min-height : 100px;
+ color : #526144;
+}
+
+.logoAltColor{
+  color : #F7D10F;
+}
+
+.nopadding{
+  padding : 0px;
+}
+
+.nopaddingR{
+  padding-right : 0px;
+}
+
+.nopaddingL{
+  padding-left : 0px;
+}
+
+.marginTopBottom{
+  margin-top : 60px;
+  margin-bottom: 60px;
+}
+
+.customImage{
+  width : 100%;
+  border-radius : 25px;
+  margin-bottom : 30px;
+}
+
+.donateBtn{
+  width : 100%;
+  margin : 5px;
+}
+
+.marginTop{
+  margin-top : 20px;
+}
+
+.marginTop2{
+  margin-top : 10px;
+}
+
+.footer{
+  min-height : 25vh;
+}
+
+.footer i{
+   color : #011500;
+   font-size : 30pt;
+   margin : 10px;
+}
+
+.footer i:hover{
+  color : #77AD46;
+  cursor : pointer;
+}
+
+@media (max-width: 1509px)
+{
+
+.nopadding{
+      padding-left : 10px;
+      padding-right : 10px;
+    }
+
+    .marginTop2{
+      margin-top : 0px;
+    }
+    .card{
+      margin-bottom : 0px;
+background-color : rgba(255,255,255,0.5);
+    }
+}
+
+@media (max-width: 700px)
+{
+
+    .nopadding{
+      padding-left : 10px;
+      padding-right : 10px;
+    }
+
+    .marginTop2{
+      margin-top : 0px;
+    }
+
+    .card{
+      margin-bottom : 10px;
+background-color : rgba(255,255,255,0.5);
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 1200px)
+{
+
+    body{
+      /* background : blue; */
+    }
+
+    .marginTop2{
+      margin-top : 0px;
+    }
+
+    .nopadding{
+      padding-left : 10px;
+      padding-right : 10px;
+    }
+
+    .card{
+      min-height : 590px;
+background-color : rgba(255,255,255,0.5);
+    }
+
+}
