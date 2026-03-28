@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xyloweft | Educational VR Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="Xyloweft.css">
+</head>
+
+<body data-theme="light">
+
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand logo" href="#">Xyloweft</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#demo">Demo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <i class="fas fa-moon theme-toggle ms-3" id="themeToggle"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Back to top button -->
+  <button id="scrollTopBtn" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./src/unity.png" class="d-block w-100" alt="VR Education" />
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Innovative VR Learning Solutions</h2>
+          <p>Transforming complex concepts into interactive experiences</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./src/Houdini.png" class="d-block w-100" alt="Physics Visualization" />
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Visualize Abstract Concepts</h2>
+          <p>Making STEM education more accessible and engaging</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./src/p2.jpeg" class="d-block w-100" alt="Future of Education" />
+        <div class="carousel-caption d-none d-md-block">
+          <h2>The Future of Education</h2>
+          <p>Preparing students for tomorrow's challenges</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="container my-5 py-5" id="features">
+    <h2 class="text-center section-title">Our Solution</h2>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card h-100">
+          <img src="./src/p1.jpeg" class="card-img-top" alt="Inspiration" />
+          <div class="card-body">
+            <h5 class="card-title">Inspiration</h5>
+            <p class="card-text">Addressing the challenges students face in STEM courses, we developed an innovative VR
+              solution to transform abstract concepts into tangible, interactive visualizations, enhancing comprehension
+              and retention.</p>
+            <a href="#contact" class="btn btn-outline-dark">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100">
+          <img src="./src/p2.jpeg" class="card-img-top" alt="Technology" />
+          <div class="card-body">
+            <h5 class="card-title">Technology</h5>
+            <p class="card-text">Our platform integrates voice recognition with real-time VR interactions, creating a
+              seamless educational experience. We've optimized the system for intuitive use and maximum educational
+              impact.</p>
+            <a href="#demo" class="btn btn-outline-dark">View Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100">
+          <img src="./src/p3.jpeg" class="card-img-top" alt="Roadmap" />
+          <div class="card-body">
+            <h5 class="card-title">Roadmap</h5>
+            <p class="card-text">We're expanding our content library, enhancing voice control, and developing a Meta
+              Quest application to make our solution widely accessible for students to learn anytime, anywhere.</p>
+            <a href="#contact" class="btn btn-outline-dark">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5 py-5" id="demo">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="section-title">Experience Our Demo</h2>
+        <p class="lead">See how our VR educational platform transforms complex STEM concepts into interactive, visual
+          experiences that enhance learning outcomes.</p>
+        <p>Our solution is designed to bridge the gap between theoretical knowledge and practical understanding, making
+          abstract concepts tangible through immersive technology.https://www.youtube.com/watch?v=oFpbqW8xCtw</p>
+        <a href="#contact" class="btn btn-outline-dark mt-3">Request Full Demo</a>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="ratio ratio-16x9">
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/oFpbqW8xCtw?si=1Di1VZvOqYOilAeY"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer text-center" id="contact">
+    <div class="container py-5">
+      <h2 class="mb-4">Xyloweft</h2>
+      <p class="lead">Transforming Education Through Immersive Technology</p>
+      <div class="mb-4">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <p> &#169 2023 Xyloweft. All rights reserved.</p>
+      <p class="mt-3"><a href="mailto:xyloweft@gmail.com" class="text-white">xyloweft@gmail.com</a></p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="Xyloweft.JS"></script>
+</body>
+
+</html>
